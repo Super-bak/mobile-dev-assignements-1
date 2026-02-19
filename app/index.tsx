@@ -49,7 +49,7 @@ import { View } from "react-native";
 // }
 
 
-import Exercice3 from "./lab5/exercice3";
+import TicTacToe from "./tictactoe/index";
 export default function Index() {
   return (
     <View
@@ -59,7 +59,7 @@ export default function Index() {
         alignItems: "center",
       }}
     > 
-      <Exercice3 />
+      <TicTacToe></TicTacToe>
     </View>
   );
 }

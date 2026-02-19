@@ -65,7 +65,7 @@ const TestScreen = () => {
   const { theme, isDark, toggleTheme } = useTheme();
 
   return (
-    <View style={{ flex: 1, backgroundColor: theme.bg, padding: 20 }}>
+    <View style={{ flex: 1, backgroundColor: theme.bg, padding: 20, width: '100%', alignItems: 'center' }}>
       <Text style={{ fontSize: 24, color: theme.text, marginTop: 50 }}>
         Theme changer
       </Text>
