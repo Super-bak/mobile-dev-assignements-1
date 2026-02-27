@@ -48,8 +48,7 @@ import { View } from "react-native";
 //   );
 // }
 
-
-import TicTacToe from "./tictactoe/index";
+import Locations from "./lab9";
 export default function Index() {
   return (
     <View
@@ -59,7 +58,7 @@ export default function Index() {
         alignItems: "center",
       }}
     > 
-      <TicTacToe></TicTacToe>
+      <Locations></Locations>
     </View>
   );
 }

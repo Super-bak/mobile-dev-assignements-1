@@ -8,6 +8,7 @@ const getStyles = (isDark: boolean) =>
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: isDark ? '#222222' : '#ffffff',
+      width: 600
 
     },
     container: {
